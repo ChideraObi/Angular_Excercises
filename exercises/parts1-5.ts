@@ -29,17 +29,16 @@ function getDaysToLocation (kilometersAway: number): number {
     return daysToLocation
 }
 
-
 // Move your output statement from part 2 here. Update the template literal to call
 // the function and print the outputs for a Mars trip and a moon trip.
 console.log(`${spacecraftName} will take ${getDaysToLocation(kilometersToMars)} to get to Mars.`)
 console.log(`${spacecraftName} will take ${getDaysToLocation(kilometersToTheMoon)} to get to the Moon.`)
 
 
-
-
 // Part 4: Create a Spacecraft Class
+class Spacecraft {
 
+}
 
 
 
